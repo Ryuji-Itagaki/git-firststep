@@ -1,22 +1,22 @@
 <html>
   <head>
-    <title>
-      板垣隆次の自己紹介ページ
-    </title>
+    <title>Hello My WebSite!</title>
   </head>
   <body>
-    <p><b>基礎情報</b></p>
-    <li>氏名：板垣隆次</li>
-    <li>生年月日：1988年6月8日</li>
-    <li>出身地：宮城県</li>
-    <li>Githubページは<a href="https://github.com/Ryuji-Itagaki"target="_blank">こちら</a>から</li>
-   
-    <p><b>趣味</b></p>
-   <li>自転車（ロードバイク ）</li>
-   <li>サウナ</li>
-   <li>サッカー</li>
+    <p>Hello, ProtoOut!</p>
 
-  <p><b>一言</b></p>
-  <li>よろしくお願いいたします。</li>
-</body>
+    <div id="app">
+        {{ message }}
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello Vue!'
+            }
+        })
+    </script>
+  </body>
 </html>
