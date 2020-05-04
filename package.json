@@ -1,7 +1,7 @@
 {
   "name": "01-06-git",
   "version": "1.0.0",
-  "description": "",
+  "description": "const LINE_NOTIFY_TOKEN = process.env.LINE_TOKEN;",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,9 @@
   "homepage": "https://github.com/Ryuji-Itagaki/git-firststep#readme",
   "dependencies": {
     "axios": "^0.19.2"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {}
 }
